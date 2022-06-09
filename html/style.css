@@ -20,7 +20,6 @@ body {
 }
 a {
     text-decoration: line-through;
-    
 }
 
 .post_title {
@@ -36,7 +35,6 @@ a {
     border: 1px solid #050505;
     margin-bottom: 15px;
     border-radius: 5px;
-    
 }
 
 .post_content {
@@ -49,5 +47,13 @@ a {
     border-radius: 5px;
     width: 450px;
     height: 350px;
+}
 
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
 }
