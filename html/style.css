@@ -1,8 +1,12 @@
 body {
     background: #050505;
     --webkit-font-smoothing: antialiased;
-
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    max-width: 800px;
+    margin: auto;
+    padding-top: 40px;
 }
 .avatar {
     width: 160px;
@@ -10,7 +14,7 @@ body {
     border-radius: 50%;
 }
 
-#title, .subtitle, .post_title {
+#title, .subtitle {
     color:whitesmoke;
 }
 
@@ -27,6 +31,7 @@ a {
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
+    
 }
 
 .post {
@@ -40,13 +45,13 @@ a {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 15px;
     border-radius: 5px;
-    width: 450px;
-    height: 350px;
+    width: 100%;
 }
 
 .contacts_list {
