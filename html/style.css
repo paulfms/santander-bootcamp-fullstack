@@ -1,19 +1,53 @@
 body {
     background: #050505;
+    --webkit-font-smoothing: antialiased;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
 }
 
 #title, .subtitle, .post_title {
     color:whitesmoke;
 }
 
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: line-through;
+    
+}
+
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
     background: #E0E0E2;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #050505;
-    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 450px;
+    height: 350px;
+
 }
